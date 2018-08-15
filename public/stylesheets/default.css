@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Ikaros-Light;
+  src: url(../fonts/menuFonts/Ikaros-Light.otf);
+}
+@font-face {
+  font-family: Ikaros-Regular;
+  src: url(../fonts/menuFonts/Ikaros-Regular.otf);
+}
+body {
+  /* padding: 50px; */
+  padding-top: 10px;
+  /* font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; */
+}
+
+a {
+  color: #00B7FF;
+}
+
+.nav-link{
+    white-space: nowrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Ikaros-Light;
+    /* font-size: 20px; */
+    font-size: 18px;
+
+}
+
+.navbar-nav{
+  border-top: 1px solid #979797;
+  border-bottom: 1px solid #979797;
+  width: 85%;
+}
+
+#headingImg{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-content{
+  width: 85%;
+}
