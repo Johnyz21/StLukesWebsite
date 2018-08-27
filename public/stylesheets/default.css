@@ -2,9 +2,24 @@
   font-family: Ikaros-Light;
   src: url(../fonts/menuFonts/Ikaros-Light.otf);
 }
+
 @font-face {
   font-family: Ikaros-Regular;
   src: url(../fonts/menuFonts/Ikaros-Regular.otf);
+}
+
+@font-face {
+  font-family: BebasNeue-Regular;
+  src: url(../fonts/title/BebasNeue-Regular.otf);
+}
+
+@font-face {
+  font-family: BebasNeue-Bold;
+  src: url(../fonts/title/BebasNeue-Bold.otf);
+}
+@font-face {
+  font-family: Bangla-MN;
+  src: url(../fonts/title/Bangla-MN.ttc);
 }
 body {
   /* padding: 50px; */
@@ -16,28 +31,70 @@ a {
   color: #00B7FF;
 }
 
-.nav-link{
-    white-space: nowrap;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: Ikaros-Light;
-    /* font-size: 20px; */
-    font-size: 18px;
-
+h2 {
+  color: #5B5E6D;
+  text-align: center;
+  font-size: 36px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: BebasNeue-Regular;
 }
-
-.navbar-nav{
+.navbar {
+  background-color: white;
+  top: -1px;
+}
+/* .nav-link {
+  white-space: nowrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Ikaros-Light;
+  font-size: 18px;
+} */
+.nav-link {
+  white-space: nowrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Ikaros-Light;
+  font-size: 16px;
+}
+li.nav-item.active {
+  font-weight: 800;
+}
+.navbar-nav {
   border-top: 1px solid #979797;
   border-bottom: 1px solid #979797;
   width: 85%;
 }
+.nav-divider {
+  color: rgba(0,0,0,.5);
+  font-size: 9px;
+}
+/* .navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+.navbar {min-height:32px !important} */
 
-#headingImg{
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
+#title{
+  font-family: BebasNeue-Regular;
+  font-size: 72px;
+  line-height: .5;
+  color: #5F6F84;
 }
 
-#main-content{
+#headingSubtitle {
+  font-family: BebasNeue-Bold;
+  font-size: 20px;
+  color: #A09F9F;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  padding-top: 4px;
+}
+#headingImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 324px;
+  height: 164px;
+}
+
+#main-content {
   width: 85%;
 }
